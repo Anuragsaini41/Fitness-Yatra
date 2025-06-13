@@ -1,0 +1,745 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Grilled Chicken Breast with Quinoa",
+      "image": "/meals/1.jpeg",
+      "calories": 400,
+      "protein": 40,
+      "carbs": 30,
+      "fat": 10,
+      "time": 30,
+      "diet": ["non-vegetarian", "high-protein"],
+      "mealType": "lunch",
+      "ingredients": [
+        "200g chicken breast",
+        "1/2 cup quinoa",
+        "1 cup broccoli florets",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "1 tsp garlic powder",
+        "1 tsp lemon juice"
+      ],
+      "instructions": [
+        "Cook quinoa in water until fluffy.",
+        "Season chicken with salt, pepper, garlic powder and grill it.",
+        "Steam broccoli and drizzle with olive oil.",
+        "Serve chicken breast with quinoa and broccoli, and add lemon juice on top."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Egg White Omelette with Spinach",
+      "image": "/meals/2.jpeg",
+      "calories": 250,
+      "protein": 25,
+      "carbs": 5,
+      "fat": 10,
+      "time": 15,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "5 egg whites",
+        "1 cup spinach",
+        "1/4 onion, chopped",
+        "1/2 tomato, chopped",
+        "1 tsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat olive oil in a pan and sauté onion and tomato.",
+        "Add spinach and cook until wilted.",
+        "Pour egg whites and cook on low heat until set.",
+        "Fold and serve hot."
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Tofu and Veggie Stir-Fry",
+      "image": "/meals/3.jpg",
+      "calories": 350,
+      "protein": 22,
+      "carbs": 20,
+      "fat": 18,
+      "time": 25,
+      "diet": ["vegetarian", "vegan", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "200g tofu, cubed",
+        "1 cup bell peppers, sliced",
+        "1/2 cup broccoli",
+        "2 tbsp soy sauce",
+        "1 tsp ginger garlic paste",
+        "1 tbsp sesame oil"
+      ],
+      "instructions": [
+        "Heat oil in a wok, sauté ginger garlic paste.",
+        "Add tofu and fry until golden.",
+        "Add vegetables and soy sauce, stir-fry for 5–7 mins.",
+        "Serve hot with brown rice or alone."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Protein Smoothie with Peanut Butter",
+      "image": "/meals/4.jpg",
+      "calories": 300,
+      "protein": 30,
+      "carbs": 15,
+      "fat": 12,
+      "time": 5,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "snack",
+      "ingredients": [
+        "1 scoop protein powder",
+        "1 banana",
+        "1 tbsp peanut butter",
+        "1 cup unsweetened almond milk",
+        "4-5 ice cubes"
+      ],
+      "instructions": [
+        "Combine all ingredients in a blender.",
+        "Blend until smooth.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Baked Salmon with Asparagus",
+      "image": "/meals/5.jpg",
+      "calories": 450,
+      "protein": 38,
+      "carbs": 10,
+      "fat": 28,
+      "time": 35,
+      "diet": ["non-vegetarian", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "200g salmon fillet",
+        "1 cup asparagus",
+        "1 tbsp olive oil",
+        "1 tsp lemon zest",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 200°C.",
+        "Place salmon and asparagus on baking tray.",
+        "Drizzle with olive oil, lemon zest, salt, and pepper.",
+        "Bake for 20–25 minutes and serve hot."
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Cottage Cheese Salad Bowl",
+      "image": "/meals/6.jpg",
+      "calories": 320,
+      "protein": 28,
+      "carbs": 18,
+      "fat": 14,
+      "time": 10,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1 cup cottage cheese (paneer)",
+        "1/2 cucumber, chopped",
+        "1/2 bell pepper, chopped",
+        "1/2 tomato, chopped",
+        "1 tbsp olive oil",
+        "1 tsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Combine all chopped vegetables and paneer in a bowl.",
+        "Add olive oil, lemon juice, salt and pepper.",
+        "Toss and serve immediately."
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Boiled Eggs with Avocado",
+      "image": "/meals/7.jpg",
+      "calories": 270,
+      "protein": 20,
+      "carbs": 5,
+      "fat": 18,
+      "time": 10,
+      "diet": ["non-vegetarian", "high-protein"],
+      "mealType": "snack",
+      "ingredients": [
+        "2 boiled eggs",
+        "1/2 avocado, sliced",
+        "Salt and pepper to taste",
+        "Chili flakes (optional)"
+      ],
+      "instructions": [
+        "Peel and halve the eggs.",
+        "Slice avocado and plate with eggs.",
+        "Season with salt, pepper, and chili flakes."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Greek Yogurt with Nuts",
+      "image": "/meals/8.jpg",
+      "calories": 280,
+      "protein": 20,
+      "carbs": 12,
+      "fat": 15,
+      "time": 5,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "1 cup Greek yogurt",
+        "1 tbsp honey",
+        "1 tbsp almonds",
+        "1 tbsp walnuts",
+        "1 tsp chia seeds"
+      ],
+      "instructions": [
+        "Scoop yogurt into a bowl.",
+        "Top with honey, nuts, and chia seeds.",
+        "Serve chilled."
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Brown Rice and Lentil Bowl",
+      "image": "/meals/9.jpg",
+      "calories": 400,
+      "protein": 22,
+      "carbs": 50,
+      "fat": 10,
+      "time": 30,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1/2 cup brown rice",
+        "1/2 cup cooked lentils",
+        "1 cup spinach",
+        "1/2 tsp cumin powder",
+        "Salt to taste",
+        "1 tsp olive oil"
+      ],
+      "instructions": [
+        "Cook brown rice and lentils separately.",
+        "Heat oil in a pan and sauté spinach with cumin.",
+        "Combine all in a bowl and season with salt.",
+        "Serve warm."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Protein Banana Pancake",
+      "image": "/meals/10.jpg",
+      "calories": 350,
+      "protein": 24,
+      "carbs": 30,
+      "fat": 12,
+      "time": 20,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "1 banana",
+        "2 eggs",
+        "1 scoop vanilla protein powder",
+        "1/2 tsp cinnamon",
+        "1 tsp coconut oil"
+      ],
+      "instructions": [
+        "Mash banana and mix with eggs and protein powder.",
+        "Heat oil in a pan and pour batter to make pancakes.",
+        "Cook each side until golden.",
+        "Serve hot with a drizzle of honey (optional)."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Chickpea Salad Bowl",
+      "image": "/meals/11.jpg",
+      "calories": 330,
+      "protein": 18,
+      "carbs": 35,
+      "fat": 12,
+      "time": 15,
+      "diet": ["vegetarian", "vegan", "high-protein"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1 cup boiled chickpeas",
+        "1/2 cucumber, chopped",
+        "1 tomato, chopped",
+        "1 tbsp olive oil",
+        "1 tsp lemon juice",
+        "Salt and black pepper to taste"
+      ],
+      "instructions": [
+        "Mix chickpeas with chopped veggies.",
+        "Add olive oil, lemon juice, and seasoning.",
+        "Toss well and serve chilled."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Moong Dal Cheela",
+      "image": "/meals/12.jpg",
+      "calories": 280,
+      "protein": 20,
+      "carbs": 25,
+      "fat": 8,
+      "time": 20,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "1 cup soaked moong dal",
+        "1/2 onion, chopped",
+        "1 green chili, chopped",
+        "1 tsp cumin seeds",
+        "Salt to taste",
+        "Oil for cooking"
+      ],
+      "instructions": [
+        "Grind soaked dal to smooth batter.",
+        "Add onion, chili, cumin, and salt.",
+        "Cook on non-stick tawa like pancake.",
+        "Serve with mint chutney."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Grilled Paneer Wrap",
+      "image": "/meals/13.jpeg",
+      "calories": 400,
+      "protein": 25,
+      "carbs": 30,
+      "fat": 18,
+      "time": 25,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "100g paneer, grilled",
+        "1 whole wheat tortilla",
+        "1/4 onion, sliced",
+        "1/4 capsicum, sliced",
+        "1 tbsp hung curd dressing",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Grill paneer and veggies together.",
+        "Spread hung curd dressing on tortilla.",
+        "Add paneer mix and roll it up.",
+        "Grill lightly and serve."
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Lentil Soup",
+      "image": "/meals/14.jpg",
+      "calories": 300,
+      "protein": 20,
+      "carbs": 30,
+      "fat": 6,
+      "time": 25,
+      "diet": ["vegetarian", "vegan", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "1/2 cup red lentils",
+        "1 carrot, chopped",
+        "1 tomato, chopped",
+        "1 onion, chopped",
+        "1 tsp cumin",
+        "1 tsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Sauté onions and cumin in oil.",
+        "Add lentils and veggies, cook with water.",
+        "Simmer until soft, blend lightly.",
+        "Season and serve warm."
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Oats Upma",
+      "image": "/meals/15.jpg",
+      "calories": 320,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 10,
+      "time": 15,
+      "diet": ["vegetarian", "high-fiber"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "1 cup rolled oats",
+        "1/4 cup mixed veggies",
+        "1 tsp mustard seeds",
+        "1 green chili",
+        "1 tsp oil",
+        "Salt and turmeric to taste"
+      ],
+      "instructions": [
+        "Roast oats and keep aside.",
+        "Sauté mustard seeds, chili, and veggies.",
+        "Add oats and water, cook till soft.",
+        "Serve hot with coriander garnish."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Avocado Chickpea Toast",
+      "image": "/meals/16.jpg",
+      "calories": 310,
+      "protein": 14,
+      "carbs": 28,
+      "fat": 16,
+      "time": 10,
+      "diet": ["vegetarian", "vegan"],
+      "mealType": "snack",
+      "ingredients": [
+        "1 slice whole wheat bread",
+        "1/2 avocado",
+        "1/4 cup mashed chickpeas",
+        "Salt, pepper, chili flakes to taste"
+      ],
+      "instructions": [
+        "Toast the bread slice.",
+        "Mash avocado and mix with chickpeas.",
+        "Spread the mix on toast, season with spices.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Baked Tofu Cubes",
+      "image": "/meals/17.jpg",
+      "calories": 260,
+      "protein": 20,
+      "carbs": 10,
+      "fat": 16,
+      "time": 30,
+      "diet": ["vegan", "high-protein"],
+      "mealType": "snack",
+      "ingredients": [
+        "200g tofu, cubed",
+        "1 tbsp olive oil",
+        "1 tsp paprika",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 200°C.",
+        "Toss tofu with oil and spices.",
+        "Bake for 20–25 mins until golden.",
+        "Serve with dip."
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Grilled Fish with Green Beans",
+      "image": "/meals/18.jpg",
+      "calories": 420,
+      "protein": 35,
+      "carbs": 10,
+      "fat": 25,
+      "time": 25,
+      "diet": ["non-vegetarian", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "200g fish fillet",
+        "1 cup green beans",
+        "1 tbsp olive oil",
+        "1 tsp lemon juice",
+        "Salt and herbs"
+      ],
+      "instructions": [
+        "Marinate fish in lemon, salt, herbs.",
+        "Grill fish and steam green beans.",
+        "Serve hot with olive oil drizzle."
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Egg and Spinach Sandwich",
+      "image": "/meals/19.jpg",
+      "calories": 360,
+      "protein": 22,
+      "carbs": 28,
+      "fat": 16,
+      "time": 15,
+      "diet": ["non-vegetarian"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "2 boiled eggs",
+        "2 slices whole wheat bread",
+        "1/4 cup spinach",
+        "1 tsp mayo (optional)",
+        "Salt and pepper"
+      ],
+      "instructions": [
+        "Slice eggs and layer on bread with spinach.",
+        "Add mayo if using, season to taste.",
+        "Grill lightly or serve cold."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Sprouts Chat",
+      "image": "/meals/20.jpg",
+      "calories": 240,
+      "protein": 16,
+      "carbs": 20,
+      "fat": 8,
+      "time": 10,
+      "diet": ["vegetarian", "vegan", "high-protein"],
+      "mealType": "snack",
+      "ingredients": [
+        "1 cup boiled mixed sprouts",
+        "1/4 onion, chopped",
+        "1/2 tomato, chopped",
+        "1 tsp lemon juice",
+        "Chaat masala, salt to taste"
+      ],
+      "instructions": [
+        "Mix all ingredients in a bowl.",
+        "Add lemon juice and masala.",
+        "Serve fresh as a protein-rich chaat."
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Quinoa Veg Bowl",
+      "image": "/meals/21.jpg",
+      "calories": 350,
+      "protein": 14,
+      "carbs": 40,
+      "fat": 12,
+      "time": 20,
+      "diet": ["vegetarian", "high-fiber"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1 cup cooked quinoa",
+        "1/2 cup bell peppers",
+        "1/4 cup corn",
+        "1/4 cup paneer cubes",
+        "1 tsp olive oil",
+        "Salt and herbs to taste"
+      ],
+      "instructions": [
+        "Sauté veggies in olive oil.",
+        "Mix with cooked quinoa and paneer.",
+        "Add salt, herbs and serve warm."
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Tofu Bhurji",
+      "image": "/meals/22.jpg",
+      "calories": 300,
+      "protein": 22,
+      "carbs": 15,
+      "fat": 18,
+      "time": 15,
+      "diet": ["vegan", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "200g tofu, crumbled",
+        "1 onion, chopped",
+        "1 tomato, chopped",
+        "1 green chili",
+        "1/2 tsp turmeric",
+        "1/2 tsp garam masala",
+        "Salt to taste",
+        "1 tsp oil"
+      ],
+      "instructions": [
+        "Sauté onion, chili, tomato in oil.",
+        "Add tofu and spices, cook for 5-7 mins.",
+        "Serve hot with roti or rice."
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Egg White Bhurji",
+      "image": "/meals/23.jpg",
+      "calories": 280,
+      "protein": 22,
+      "carbs": 6,
+      "fat": 12,
+      "time": 10,
+      "diet": ["non-vegetarian", "high-protein"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "4 egg whites",
+        "1 onion, chopped",
+        "1 tomato, chopped",
+        "1 chili",
+        "Salt, pepper, turmeric",
+        "1 tsp oil"
+      ],
+      "instructions": [
+        "Sauté veggies, add egg whites.",
+        "Scramble till cooked.",
+        "Serve with multigrain toast."
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Rajma Chawal (Brown Rice)",
+      "image": "/meals/24.jpg",
+      "calories": 400,
+      "protein": 18,
+      "carbs": 50,
+      "fat": 10,
+      "time": 30,
+      "diet": ["vegetarian", "high-fiber"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1 cup boiled rajma",
+        "1 cup cooked brown rice",
+        "1 onion, 1 tomato",
+        "Spices: cumin, chili, turmeric, coriander",
+        "1 tsp oil, salt to taste"
+      ],
+      "instructions": [
+        "Prepare rajma masala using onion, tomato, spices.",
+        "Serve with brown rice.",
+        "Garnish with coriander."
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Grilled Soya Tikka",
+      "image": "/meals/25.jpg",
+      "calories": 310,
+      "protein": 24,
+      "carbs": 15,
+      "fat": 14,
+      "time": 25,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "snack",
+      "ingredients": [
+        "1 cup boiled soya chunks",
+        "1 tbsp hung curd",
+        "1 tsp tikka masala",
+        "1/2 onion, 1/2 capsicum",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Marinate soya with curd, masala, veggies.",
+        "Grill on pan or oven till brown.",
+        "Serve with lemon."
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Peanut Butter Banana Smoothie",
+      "image": "/meals/26.jpg",
+      "calories": 350,
+      "protein": 15,
+      "carbs": 35,
+      "fat": 16,
+      "time": 5,
+      "diet": ["vegetarian", "preworkout"],
+      "mealType": "snack",
+      "ingredients": [
+        "1 banana",
+        "1 tbsp peanut butter",
+        "1/2 cup milk (or almond milk)",
+        "1 scoop protein powder",
+        "Ice cubes"
+      ],
+      "instructions": ["Blend all ingredients together.", "Serve chilled as pre-workout fuel."]
+    },
+    {
+      "id": "27",
+      "title": "Boiled Egg & Cucumber Bowl",
+      "image": "/meals/27.jpg",
+      "calories": 250,
+      "protein": 18,
+      "carbs": 5,
+      "fat": 16,
+      "time": 10,
+      "diet": ["non-vegetarian", "keto"],
+      "mealType": "snack",
+      "ingredients": [
+        "2 boiled eggs",
+        "1/2 cucumber, sliced",
+        "1 tsp olive oil",
+        "Salt, pepper, herbs"
+      ],
+      "instructions": [
+        "Slice eggs and cucumber.",
+        "Toss with oil and seasoning.",
+        "Serve immediately."
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Besan Toast",
+      "image": "/meals/28.jpeg",
+      "calories": 300,
+      "protein": 14,
+      "carbs": 30,
+      "fat": 10,
+      "time": 10,
+      "diet": ["vegetarian"],
+      "mealType": "breakfast",
+      "ingredients": [
+        "2 slices whole wheat bread",
+        "1/4 cup besan",
+        "1/4 onion, tomato, chili",
+        "Water, salt, turmeric",
+        "Oil for toasting"
+      ],
+      "instructions": [
+        "Make besan batter with veggies.",
+        "Dip bread, toast on pan.",
+        "Serve hot with chutney."
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Methi Thepla with Curd",
+      "image": "/meals/29.jpeg",
+      "calories": 340,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 14,
+      "time": 20,
+      "diet": ["vegetarian"],
+      "mealType": "lunch",
+      "ingredients": [
+        "1 cup wheat flour",
+        "1/2 cup chopped methi",
+        "1 tsp curd, spices, salt",
+        "Water to knead, oil for cooking"
+      ],
+      "instructions": [
+        "Make dough with methi, curd, masalas.",
+        "Roll into theplas and cook.",
+        "Serve with plain curd."
+      ]
+    },
+    {
+      "id": "30",
+      "title": "High-Protein Sprout Curry",
+      "image": "/meals/30.jpg",
+      "calories": 320,
+      "protein": 20,
+      "carbs": 30,
+      "fat": 10,
+      "time": 25,
+      "diet": ["vegetarian", "high-protein"],
+      "mealType": "dinner",
+      "ingredients": [
+        "1 cup mixed sprouts",
+        "1 onion, 1 tomato",
+        "1 tsp ginger-garlic paste",
+        "Spices: turmeric, coriander, chili",
+        "Salt, 1 tsp oil"
+      ],
+      "instructions": [
+        "Sauté onion, tomato, paste in oil.",
+        "Add sprouts and water, cook till soft.",
+        "Garnish with coriander and serve hot."
+      ]
+    }
+  ]
+}

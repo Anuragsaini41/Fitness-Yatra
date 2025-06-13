@@ -1,0 +1,201 @@
+{
+  "mealPlans": [
+    {
+      "id": "1",
+      "name": "High Protein Vegetarian Plan",
+      "description": "Perfect for vegetarians looking to build muscle and maintain energy levels throughout the day.",
+      "type": "vegetarian",
+      "calories": 2200,
+      "protein": 120,
+      "carbs": 240,
+      "fat": 70,
+      "bodyType": "mesomorph",
+      "workoutType": "strength",
+      "meals": {
+        "breakfast": {
+          "title": "Protein-Packed Paneer Paratha with Greek Yogurt",
+          "calories": 450
+        },
+        "lunch": {
+          "title": "Chickpea and Vegetable Curry with Brown Rice",
+          "calories": 650
+        },
+        "dinner": {
+          "title": "Tofu Stir-Fry with Quinoa",
+          "calories": 550
+        },
+        "snacks": [
+          "Protein Smoothie with Berries (250 cal)",
+          "Roasted Chickpeas (150 cal)",
+          "Mixed Nuts and Seeds (150 cal)"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Weight Loss Plan",
+      "description": "Calorie-controlled meal plan designed to help you lose weight while maintaining muscle mass.",
+      "type": "vegetarian",
+      "calories": 1800,
+      "protein": 100,
+      "carbs": 180,
+      "fat": 60,
+      "bodyType": "endomorph",
+      "workoutType": "cardio",
+      "meals": {
+        "breakfast": {
+          "title": "Vegetable Oats Bowl with Flaxseeds",
+          "calories": 350
+        },
+        "lunch": {
+          "title": "Mediterranean Salad with Feta and Olive Oil",
+          "calories": 450
+        },
+        "dinner": {
+          "title": "Grilled Paneer with Steamed Vegetables",
+          "calories": 400
+        },
+        "snacks": [
+          "Greek Yogurt with Berries (120 cal)",
+          "Cucumber and Carrot Sticks with Hummus (130 cal)",
+          "Apple with Almond Butter (150 cal)"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "Muscle Building Plan",
+      "description": "High-calorie, protein-rich plan designed for individuals focusing on muscle gain and strength.",
+      "type": "non-vegetarian",
+      "calories": 3000,
+      "protein": 180,
+      "carbs": 300,
+      "fat": 90,
+      "bodyType": "ectomorph",
+      "workoutType": "strength",
+      "meals": {
+        "breakfast": {
+          "title": "Egg White Omelette with Chicken and Vegetables",
+          "calories": 550
+        },
+        "lunch": {
+          "title": "Grilled Chicken Breast with Sweet Potato and Broccoli",
+          "calories": 700
+        },
+        "dinner": {
+          "title": "Fish Curry with Brown Rice and Mixed Vegetables",
+          "calories": 650
+        },
+        "snacks": [
+          "Protein Shake with Banana (300 cal)",
+          "Chicken and Avocado Wrap (400 cal)",
+          "Mixed Nuts and Dried Fruits (200 cal)",
+          "Greek Yogurt with Honey (200 cal)"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Balanced Energy Plan",
+      "description": "Well-balanced nutrition plan for active individuals seeking sustainable energy throughout the day.",
+      "type": "non-vegetarian",
+      "calories": 2500,
+      "protein": 140,
+      "carbs": 280,
+      "fat": 80,
+      "bodyType": "mesomorph",
+      "workoutType": "sports",
+      "meals": {
+        "breakfast": {
+          "title": "Multigrain Toast with Eggs and Avocado",
+          "calories": 450
+        },
+        "lunch": {
+          "title": "Chicken and Quinoa Bowl with Mixed Vegetables",
+          "calories": 600
+        },
+        "dinner": {
+          "title": "Baked Fish with Sweet Potato and Green Beans",
+          "calories": 550
+        },
+        "snacks": [
+          "Fruit Smoothie (200 cal)",
+          "Turkey and Vegetable Roll-Ups (180 cal)",
+          "Trail Mix (220 cal)",
+          "Coconut Water with Protein Powder (150 cal)"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Indian Vegetarian Weight Loss Plan",
+      "description": "A balanced vegetarian meal plan with traditional Indian foods to promote weight loss while maintaining energy levels.",
+      "type": "vegetarian",
+      "calories": 1600,
+      "protein": 65,
+      "carbs": 220,
+      "fat": 45,
+      "meals": {
+        "breakfast": {
+          "id": "7",
+          "title": "Oats Chilla (Savory Pancake)"
+        },
+        "lunch": {
+          "id": "8",
+          "title": "Mung Dal Khichdi"
+        },
+        "dinner": {
+          "id": "5",
+          "title": "Palak Paneer with Roti (1 small serving)"
+        },
+        "snacks": ["Sprout salad", "Buttermilk", "1 fruit"]
+      }
+    },
+    {
+      "id": "6",
+      "name": "High Protein North Indian Plan",
+      "description": "Protein-rich North Indian diet for muscle building and recovery, suitable for regular gym-goers.",
+      "type": "non-vegetarian",
+      "calories": 2200,
+      "protein": 120,
+      "carbs": 250,
+      "fat": 60,
+      "meals": {
+        "breakfast": {
+          "title": "Paneer Paratha with Curd"
+        },
+        "lunch": {
+          "title": "Rajma Chawal (Kidney Beans with Rice)"
+        },
+        "dinner": {
+          "id": "6",
+          "title": "Protein-Rich Chicken Curry"
+        },
+        "snacks": ["Chana chaat", "Paneer tikka", "Protein shake"]
+      }
+    },
+    {
+      "id": "7",
+      "name": "South Indian Balanced Diet",
+      "description": "Nutritionally balanced South Indian meals that provide steady energy throughout the day.",
+      "type": "vegetarian",
+      "calories": 1800,
+      "protein": 70,
+      "carbs": 260,
+      "fat": 50,
+      "meals": {
+        "breakfast": {
+          "id": "2",
+          "title": "Masala Dosa with Coconut Chutney"
+        },
+        "lunch": {
+          "title": "Sambar Rice with Vegetable Poriyal"
+        },
+        "dinner": {
+          "title": "Ragi Roti with Avial"
+        },
+        "snacks": ["Steamed idli", "Rasam", "Buttermilk"]
+      }
+    }
+  ]
+}

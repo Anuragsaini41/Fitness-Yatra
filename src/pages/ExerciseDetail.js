@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { Box } from '@mui/material';
+import { Box, CircularProgress, Typography } from '@mui/material';
 
 import { exerciseOptions, fetchData, youtubeOptions } from '../utils/fetchData';
 import Detail from '../components/Detail';
@@ -12,38 +12,89 @@ const ExerciseDetail = () => {
   const [exerciseVideos, setExerciseVideos] = useState([]);
   const [targetMuscleExercises, setTargetMuscleExercises] = useState([]);
   const [equipmentExercises, setEquipmentExercises] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
   const { id } = useParams();
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     const fetchExercisesData = async () => {
-      const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com';
-      const youtubeSearchUrl = 'https://youtube-search-and-download.p.rapidapi.com';
+      setIsLoading(true);
+      setError(null);
 
-      const exerciseDetailData = await fetchData(`${exerciseDbUrl}/exercises/exercise/${id}`, exerciseOptions);
-      setExerciseDetail(exerciseDetailData);
+      try {
+        const exerciseDbUrl = 'https://exercisedb.p.rapidapi.com';
+        const youtubeSearchUrl = 'https://youtube-search-and-download.p.rapidapi.com';
 
-      const exerciseVideosData = await fetchData(`${youtubeSearchUrl}/search?query=${exerciseDetailData.name} exercise`, youtubeOptions);
-      setExerciseVideos(exerciseVideosData.contents);
+        const exerciseDetailData = await fetchData(
+          `${exerciseDbUrl}/exercises/exercise/${id}`,
+          exerciseOptions,
+        );
+        setExerciseDetail(exerciseDetailData);
 
-      const targetMuscleExercisesData = await fetchData(`${exerciseDbUrl}/exercises/target/${exerciseDetailData.target}`, exerciseOptions);
-      setTargetMuscleExercises(targetMuscleExercisesData);
+        const exerciseVideosData = await fetchData(
+          `${youtubeSearchUrl}/search?query=${exerciseDetailData.name} exercise`,
+          youtubeOptions,
+        );
+        setExerciseVideos(exerciseVideosData.contents || []);
 
-      const equimentExercisesData = await fetchData(`${exerciseDbUrl}/exercises/equipment/${exerciseDetailData.equipment}`, exerciseOptions);
-      setEquipmentExercises(equimentExercisesData);
+        const targetMuscleExercisesData = await fetchData(
+          `${exerciseDbUrl}/exercises/target/${exerciseDetailData.target}`,
+          exerciseOptions,
+        );
+        setTargetMuscleExercises(targetMuscleExercisesData || []);
+
+        const equipmentExercisesData = await fetchData(
+          `${exerciseDbUrl}/exercises/equipment/${exerciseDetailData.equipment}`,
+          exerciseOptions,
+        );
+        setEquipmentExercises(equipmentExercisesData || []);
+      } catch (err) {
+        setError('Failed to load exercise data. Please try again later.');
+        console.error('Error fetching exercise data:', err);
+      } finally {
+        setIsLoading(false);
+      }
     };
 
     fetchExercisesData();
   }, [id]);
 
-  if (!exerciseDetail) return <div>No Data</div>;
+  if (isLoading) {
+    return (
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (error) {
+    return (
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
+        <Typography variant="h6" color="error">
+          {error}
+        </Typography>
+      </Box>
+    );
+  }
+
+  if (!exerciseDetail.name) {
+    return (
+      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '70vh' }}>
+        <Typography variant="h6">No exercise data available.</Typography>
+      </Box>
+    );
+  }
 
   return (
     <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
       <Detail exerciseDetail={exerciseDetail} />
       <ExerciseVideos exerciseVideos={exerciseVideos} name={exerciseDetail.name} />
-      <SimilarExercises targetMuscleExercises={targetMuscleExercises} equipmentExercises={equipmentExercises} />
+      <SimilarExercises
+        targetMuscleExercises={targetMuscleExercises}
+        equipmentExercises={equipmentExercises}
+      />
     </Box>
   );
 };

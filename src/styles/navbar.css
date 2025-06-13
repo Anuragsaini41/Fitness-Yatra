@@ -1,0 +1,183 @@
+/* Global Variables */
+:root {
+  --primary-color: #e53935;
+  --primary-gradient: linear-gradient(135deg, #e53935 0%, #ff5252 100%);
+  --shadow-light: 0 4px 15px rgba(229, 57, 53, 0.1);
+  --shadow-medium: 0 6px 20px rgba(229, 57, 53, 0.25);
+  --transition-speed: 0.3s;
+  --drawer-width: 280px;
+  --drawer-bg: #181818;
+  --drawer-text: #f0f0f0;
+}
+
+/* Mobile Drawer Styling */
+.mobile-drawer {
+  width: var(--drawer-width);
+  background-color: var(--drawer-bg) !important;
+  color: var(--drawer-text);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+/* Close Button */
+.drawer-close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: var(--drawer-text);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 5px;
+  z-index: 10;
+}
+
+/* Drawer Header with Logo */
+.drawer-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.drawer-header .logo-text {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+/* User Profile Area */
+.drawer-user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.drawer-user-profile .MuiAvatar-root {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  border: 2px solid var(--primary-color);
+}
+
+.drawer-user-name {
+  color: var(--drawer-text);
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Menu Items */
+.drawer-nav-list {
+  padding: 0;
+  width: 100%;
+}
+
+.drawer-nav-item {
+  width: 100%;
+  padding: 0 !important;
+  margin-bottom: 5px;
+}
+
+.drawer-nav-link {
+  padding: 12px 25px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: var(--drawer-text);
+  font-size: 18px;
+  font-weight: 400;
+  transition: all var(--transition-speed) ease;
+}
+
+.drawer-nav-link:hover,
+.drawer-nav-link:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 30px;
+}
+
+/* Login Button */
+.drawer-login-btn {
+  background: var(--primary-gradient);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px auto;
+  display: block;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: var(--shadow-medium);
+  transition: all var(--transition-speed) ease;
+}
+
+.drawer-login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(229, 57, 53, 0.3);
+}
+
+/* Hamburger Menu */
+.menu-icon-button {
+  color: #3a1212;
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* User Profile on Mobile */
+.mobile-user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-avatar {
+  width: 36px !important;
+  height: 36px !important;
+  border: 2px solid var(--primary-color);
+  margin-right: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+  .app-bar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Add this to improve the drawer z-index */
+.MuiDrawer-root {
+  z-index: 1300 !important; /* Ensure drawer is above other elements */
+}
+
+/* Animation for Drawer - update to be more specific */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-drawer {
+  animation: slideIn var(--transition-speed) ease-out;
+}
